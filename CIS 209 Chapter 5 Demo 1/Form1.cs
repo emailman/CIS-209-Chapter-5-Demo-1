@@ -2,6 +2,14 @@
 using System.IO;
 using System.Windows.Forms;
 
+/*
+ * Demo of the form load event, reading a file, and creating a list box contents
+ * CIS 209
+ * Eric Mailman
+ * 4 Sept 2016
+ *
+ */
+
 namespace CIS_209_Chapter_5_Demo_1
 {
     public partial class Form1 : Form
