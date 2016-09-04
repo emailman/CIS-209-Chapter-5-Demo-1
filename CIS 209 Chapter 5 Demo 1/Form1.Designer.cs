@@ -33,6 +33,7 @@
             this.lblChoice = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.lbxChoices = new System.Windows.Forms.ListBox();
+            this.lblCount = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -50,7 +51,7 @@
             // btnExit
             // 
             this.btnExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnExit.Location = new System.Drawing.Point(134, 224);
+            this.btnExit.Location = new System.Drawing.Point(133, 252);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(75, 26);
             this.btnExit.TabIndex = 1;
@@ -61,7 +62,7 @@
             // lblChoice
             // 
             this.lblChoice.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblChoice.Location = new System.Drawing.Point(16, 177);
+            this.lblChoice.Location = new System.Drawing.Point(16, 205);
             this.lblChoice.Name = "lblChoice";
             this.lblChoice.Size = new System.Drawing.Size(193, 44);
             this.lblChoice.TabIndex = 2;
@@ -70,7 +71,7 @@
             // 
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel1.Controls.Add(this.lbxChoices);
-            this.panel1.Location = new System.Drawing.Point(13, 33);
+            this.panel1.Location = new System.Drawing.Point(8, 67);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(200, 123);
             this.panel1.TabIndex = 3;
@@ -80,18 +81,29 @@
             this.lbxChoices.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbxChoices.FormattingEnabled = true;
             this.lbxChoices.ItemHeight = 18;
-            this.lbxChoices.Location = new System.Drawing.Point(5, 4);
+            this.lbxChoices.Location = new System.Drawing.Point(2, 4);
             this.lbxChoices.Name = "lbxChoices";
             this.lbxChoices.Size = new System.Drawing.Size(188, 112);
             this.lbxChoices.TabIndex = 0;
             this.lbxChoices.SelectedIndexChanged += new System.EventHandler(this.lbxChoices_SelectedIndexChanged);
             // 
+            // lblCount
+            // 
+            this.lblCount.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCount.Location = new System.Drawing.Point(16, 33);
+            this.lblCount.Name = "lblCount";
+            this.lblCount.Size = new System.Drawing.Size(192, 23);
+            this.lblCount.TabIndex = 4;
+            this.lblCount.Text = "Flavors Available Today";
+            this.lblCount.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(221, 262);
+            this.ClientSize = new System.Drawing.Size(221, 290);
             this.ControlBox = false;
+            this.Controls.Add(this.lblCount);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.lblChoice);
             this.Controls.Add(this.btnExit);
@@ -112,6 +124,7 @@
         private System.Windows.Forms.Label lblChoice;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.ListBox lbxChoices;
+        private System.Windows.Forms.Label lblCount;
     }
 }
 

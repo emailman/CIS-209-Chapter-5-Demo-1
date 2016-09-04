@@ -43,6 +43,9 @@ namespace CIS_209_Chapter_5_Demo_1
                     // Add it to the list box
                     lbxChoices.Items.Add(flavor);
                 }
+
+                // Display how many items are on the list 
+                lblCount.Text = lbxChoices.Items.Count + " flavors available today";
             }
             catch (Exception ex)
             {
