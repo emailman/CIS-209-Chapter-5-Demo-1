@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CIS 209 Chapter 5 Demo 1", "CIS 209 Chapter 5 Demo 1\CIS 209 Chapter 5 Demo 1.csproj", "{B4524F3A-0891-4F6E-898B-4329D8E25945}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E9E5865E-ED21-4065-8EB2-5C5991F44183}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
