@@ -44,12 +44,15 @@ namespace CIS_209_Chapter_5_Demo_1
                     lbxChoices.Items.Add(flavor);
                 }
 
+                // Close the file
+                inputFile.Close();
+
                 // Display how many items are on the list 
                 lblCount.Text = lbxChoices.Items.Count + " flavors available today";
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message, "U-Sever Ice Cream Parlor",
+                MessageBox.Show(ex.Message, "U-Serve Ice Cream Parlor",
                     MessageBoxButtons.OK, MessageBoxIcon.Error);
                 Close();
             }
